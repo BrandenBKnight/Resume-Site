@@ -15,7 +15,7 @@ const Skills = () => {
   ];
 
   return (
-    <section className="container py-5">
+    <section id="Skills" className="container py-5">
       <h2>Skills</h2>
       <ul className="list-unstyled d-flex flex-wrap">
         {skills.map((skill, index) => (

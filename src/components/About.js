@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="container py-5">
+    <section id="About" className="container py-5">
       <h2>About Me</h2>
       <p>
         I'm an IT enthusiast with a solid foundation of 12 years in the

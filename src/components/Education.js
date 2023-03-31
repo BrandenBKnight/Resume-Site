@@ -2,7 +2,7 @@ import React from "react";
 
 const Education = () => {
   return (
-    <section className="container py-5">
+    <section id="Education" className="container py-5">
       <h2>Education</h2>
       <div>
         <h3>B.S.B.A. Project Management</h3>

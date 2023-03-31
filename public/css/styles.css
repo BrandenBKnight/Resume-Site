@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar-container {
+  width: 100%;
+  position: fixed;
+  z-index: 110;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-container.text-white a {
+  color: white;
+}
+
+.navbar-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 45px;
+  width: 100%;
+}
+
+.navbar-logo img {
+  max-height: 50px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+.center-container {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.navbar-social-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  transition: background-color 0.3s;
+}
+
+.btn i {
+  margin-right: 5px;
+}
+
+.btn-linkedin {
+  color: #0077b5;
+}
+
+.btn-github {
+  color: #333;
+}
+
+.btn-resume {
+  color: #dc3545;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-main-menu {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-main-menu ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-main-menu li {
+  margin-left: 30px;
+}
+
+.navbar-main-menu a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.navbar-main-menu a:hover {
+  color: #000;
+}
+
+.navbar-mobile-menu {
+  display: none;
+  font-size: 24px;
+}
+
+@media (max-width: 768px) {
+  .navbar-main-menu {
+    display: none;
+  }
+
+  .navbar-mobile-menu {
+    display: block;
+    cursor: pointer;
+  }
+}
