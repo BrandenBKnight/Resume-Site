@@ -124,3 +124,8 @@ body {
     cursor: pointer;
   }
 }
+
+#About.container.py-5 {
+  padding-top: 178px !important;
+  /* Other styles specific to the #About section */
+}
