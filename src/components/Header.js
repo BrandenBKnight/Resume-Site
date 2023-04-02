@@ -6,7 +6,9 @@ const Header = () => {
       <div class="navbar-inner">
         <div class="flex-container">
           <div class="navbar-logo">
-            <img src="logo.png" alt="Logo" />
+            <a class="navbar-brand" href="#">
+              Branden Knight
+            </a>
           </div>
           <div class="center-container">
             <nav class="navbar-social-links">

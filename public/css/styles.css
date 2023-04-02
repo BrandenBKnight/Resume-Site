@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Avenir&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -29,8 +31,10 @@ body {
   width: 100%;
 }
 
-.navbar-logo img {
-  max-height: 50px;
+.navbar-brand {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px; /* Adjust the font size if needed */
+  font-weight: 700;
 }
 
 .flex-container {
