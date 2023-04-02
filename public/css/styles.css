@@ -144,3 +144,14 @@ body {
 .education-container {
   padding-bottom: 78px !important;
 }
+
+.about-image {
+  object-fit: cover;
+  height: 100%;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
