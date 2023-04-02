@@ -62,7 +62,7 @@ body {
   display: flex;
   align-items: center;
   text-decoration: none;
-  padding: 5px 10px;
+  padding: 4px 8px;
   border-radius: 3px;
   transition: background-color 0.3s;
 }
@@ -84,7 +84,10 @@ body {
 }
 
 .btn:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: #0072c6;
+  border-radius: 4px;
+  color: #ffffff;
+  padding: 4px 8px;
 }
 
 .navbar-main-menu {
@@ -107,10 +110,14 @@ body {
   text-decoration: none;
   color: #333;
   transition: color 0.3s;
+  padding: 4px 8px;
 }
 
 .navbar-main-menu a:hover {
-  color: #000;
+  background-color: #0072c6;
+  border-radius: 4px;
+  color: #ffffff;
+  padding: 4px 8px;
 }
 
 .navbar-mobile-menu {
