@@ -209,3 +209,57 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 }
+
+/* Experience section */
+#Experience h2 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#Experience h3 {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+#Experience h4 {
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+  color: #777;
+}
+
+#Experience p {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+#Experience ul {
+  margin-bottom: 1.5rem;
+  padding-left: 15px;
+}
+
+#Experience li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+#Experience div {
+  padding: 1.5rem;
+  border-bottom: 1px solid #eee;
+  transition: background-color 0.3s;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+#Experience div:last-child {
+  margin-bottom: 0;
+}
+
+#Experience div:hover {
+  background-color: #e9ecef;
+}
+
+@media (max-width: 768px) {
+  #Experience div {
+    padding: 1rem;
+  }
+}
