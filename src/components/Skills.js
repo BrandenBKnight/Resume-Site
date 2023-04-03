@@ -1,32 +1,79 @@
 import React from "react";
 
 const Skills = () => {
-  const skills = [
-    "Operating Systems - Windows, Linux, MacOS",
-    "Networking - TCP/IP, DNS, DHCP, VPNs",
-    "Security - SSL/TLS, 2FA, Password Management, Encryption, Least Privilege",
-    "Virtualization - Docker, VMWare, Hyper-V, Citrix, XenServer",
-    "Database - SQL, MySQL, PostgreSQL, MongoDB, MariaDB",
-    "Programming Languages - Python",
-    "Web Development - HTML, CSS, JavaScript, Bootstrap",
-    "Project Management - Methodologies, Prioritization, Resource Management, Collaboration",
-    "Problem Solving - Troubleshooting, Root Cause Analysis, Logical/Critical Thinking, Creative and Innovative Solutions, Documentation",
-    "Communication Skills - Active Listening and Comprhension, Clear/Consise Written Communication, Effective Verbal Communication",
+  const skillCategories = [
+    {
+      title: "Cloud & Virtualization",
+      skills: ["AWS", "Azure", "Google Cloud Platform", "Docker", "VMWare"],
+    },
+    {
+      title: "Cybersecurity Tools",
+      skills: [
+        "Wireshark",
+        "Nmap",
+        "Metasploit",
+        "Kali Linux",
+        "Burp Suite",
+        "Snort",
+      ],
+    },
+    {
+      title: "Database",
+      skills: ["SQL", "MySQL", "PostgreSQL", "MongoDB", "MariaDB"],
+    },
+    {
+      title: "Networking",
+      skills: ["TCP/IP", "DNS", "DHCP", "VPNs", "Firewalls"],
+    },
+    {
+      title: "Operating Systems",
+      skills: ["Windows", "Linux", "MacOS"],
+    },
+    {
+      title: "Programming Languages",
+      skills: ["Python", "JavaScript", "Bash", "PowerShell"],
+    },
+    {
+      title: "Risk Management",
+      skills: [
+        "Risk Assessment",
+        "Vulnerability Scanning",
+        "Threat Modeling",
+        "Incident Response",
+      ],
+    },
+    {
+      title: "Security Concepts",
+      skills: [
+        "Cryptography",
+        "Access Control",
+        "Intrusion Detection",
+        "Secure Software Development",
+      ],
+    },
+    {
+      title: "Web Development",
+      skills: ["HTML", "CSS", "JavaScript", "Bootstrap", "React"],
+    },
   ];
 
   return (
     <section id="Skills" className="container py-5">
       <h2>Skills</h2>
-      <ul className="list-unstyled d-flex flex-wrap">
-        {skills.map((skill, index) => (
-          <li
-            key={index}
-            className="mx-2 my-1 px-3 py-1 bg-secondary text-white rounded"
-          >
-            {skill}
-          </li>
-        ))}
-      </ul>
+      <div className="skills-wrapper">
+        <div className="skills-grid">
+          {skillCategories.map((category, index) => (
+            <div key={index} className="skills-category">
+              <h3 className="skills-category-title">{category.title}</h3>
+              <ul className="skills-list">
+                {category.skills.map((skill, i) => (
+                  <li key={i}>{skill}</li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      </div>
     </section>
   );
 };
