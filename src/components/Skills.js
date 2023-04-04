@@ -59,7 +59,7 @@ const Skills = () => {
 
   return (
     <section id="Skills" className="container py-5">
-      <h2>Skills</h2>
+      <h1>Skills</h1>
       <div className="skills-wrapper">
         <div className="skills-grid">
           {skillCategories.map((category, index) => (

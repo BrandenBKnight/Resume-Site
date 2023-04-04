@@ -2,44 +2,44 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header class="navbar-container bg-dark text-white py-3">
-      <div class="navbar-inner">
-        <div class="flex-container">
-          <div class="navbar-logo">
-            <a class="navbar-brand" href="#">
+    <header className="navbar-container bg-dark text-white py-3">
+      <div className="navbar-inner">
+        <div className="flex-container">
+          <div className="navbar-logo">
+            <a className="navbar-brand" href="#">
               Branden Knight
             </a>
           </div>
-          <div class="center-container">
-            <nav class="navbar-social-links">
+          <div className="center-container">
+            <nav className="navbar-social-links">
               <a
                 href="https://www.linkedin.com/in/brandenbknight/"
                 target="_blank"
-                class="btn btn-linkedin"
+                className="btn btn-linkedin"
               >
-                <i class="fa-brands fa-linkedin"></i>
+                <i className="fa-brands fa-linkedin"></i>
                 LinkedIn
               </a>
               <a
                 href="https://github.com/BrandenBKnight"
                 target="_blank"
-                class="btn btn-github"
+                className="btn btn-github"
               >
-                <i class="fa-brands fa-github"></i>
+                <i className="fa-brands fa-github"></i>
                 GitHub
               </a>
               <a
                 href="Branden Knight - Resume.pdf"
                 target="_blank"
-                class="btn btn-resume"
+                className="btn btn-resume"
               >
-                <i class="fa-regular fa-file"></i>
+                <i className="fa-regular fa-file"></i>
                 Resume
               </a>
             </nav>
           </div>
-          <div class="right-container">
-            <nav class="navbar-main-menu">
+          <div className="right-container">
+            <nav className="navbar-main-menu">
               <ul>
                 <li>
                   <a href="#About">About Me</a>
@@ -57,8 +57,8 @@ const Header = () => {
             </nav>
           </div>
         </div>
-        <div class="navbar-mobile-menu">
-          <i class="fa fa-bars"></i>
+        <div className="navbar-mobile-menu">
+          <i className="fa fa-bars"></i>
         </div>
       </div>
     </header>

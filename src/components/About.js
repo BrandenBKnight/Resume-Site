@@ -13,7 +13,7 @@ const About = () => {
           />
         </div>
         <div className="col-md-6 about-content">
-          <h2>About Me</h2>
+          <h1>About Me</h1>
           <p>
             I'm an IT enthusiast with a solid foundation of 12 years in the
             technology realm, encompassing both my professional and personal

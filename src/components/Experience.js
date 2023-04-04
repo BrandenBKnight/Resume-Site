@@ -3,7 +3,7 @@ import React from "react";
 const Experience = () => {
   return (
     <section id="Experience" className="container py-5">
-      <h2>Experience</h2>
+      <h1>Experience</h1>
       <div>
         <h3>ICBM Maintainer - Team Chief - Staff Sergeant</h3>
         <h4>United States Air Force</h4>
