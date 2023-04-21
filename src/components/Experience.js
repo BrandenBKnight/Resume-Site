@@ -1,152 +1,179 @@
 import React from "react";
 
 const Experience = () => {
-  return (
-    <section id="Experience" className="container py-5">
-      <h1>Experience</h1>
-      <div>
-        <h3>ICBM Maintainer - Team Chief - Staff Sergeant</h3>
-        <h4>United States Air Force</h4>
-        <p>August 2019 - Current</p>
-        <ul>
-          <li>
-            Managed maintenance of missile communication systems and led a team
-            of 2 to 5 members in troubleshooting and maintenance for 15 Missile
-            Alert Facilities and 150 Launch Facilities
-          </li>
-          <li>
-            Led and trained a team of 2 to 5 members in troubleshooting and
-            maintenance while mentoring and developing 15 airmen to become
-            knowledgeable team members/team chiefs themselves
-          </li>
-          <li>
-            Resolved a critical situation, saving at least 1.5 million dollars
-            and restoring security of the missile system
-          </li>
-          <li>
-            Successfully restored 4 different systems that had been down for 7-9
-            months, resulting in job offers from Raytheon and Northrup Grumman
-            for my accomplishments
-          </li>
-          <li>
-            Held a top-secret clearance during my service in the Air Force,
-            demonstrating my ability to handle sensitive information with
-            discretion and professionalism
-          </li>
-        </ul>
-      </div>
-      <div>
-        <h3>IT Support Technician</h3>
-        <h4>Digitech Computer</h4>
-        <p>October 2017 - August 2019</p>
-        <ul>
-          <li>
-            Cleared support tickets for an office of 200 employees, ensuring
-            timely and effective resolution of technical issues
-          </li>
-          <li>
-            Assisted clients during non-business hours through a rotating
-            on-call shift, troubleshooting and resolving technical problems
-            remotely
-          </li>
-          <li>
-            Maintained inventory of IT resources, ensuring adequate supplies and
-            minimizing downtime
-          </li>
-          <li>
-            Developed a batch script to deploy updates for in-house software and
-            improve security by automatically deleting sensitive keys required
-            for updates. Script continues to be used to this day, demonstrating
-            its effectiveness and reliability
-          </li>
-        </ul>
-      </div>
-      <div>
-        <h3>Desktop Support Analyst</h3>
-        <h4>Scarsdale Medical Group</h4>
-        <p>April 2017 - July 2017</p>
-        <ul>
-          <li>
-            Independently managed the IT workload for one of three hospital
-            buildings, resulting in improved ticket turn time and timely
-            resolution of technical issues. Regularly communicated with the IT
-            Project Manager to ensure seamless coordination and swift resolution
-            of critical situations
-          </li>
-          <li>
-            Ensured minimal downtime for staff by maintaining and deploying
-            several spare workstations with images that included
-            mission-critical software. This proactive approach enabled timely
-            service and upgrades for active workstations, minimizing disruptions
-            to hospital operations
-          </li>
-          <li>Responsibility or accomplishment 3</li>
-        </ul>
-      </div>
-      <div>
-        <h3>Advanced Repair Agent | Auto Technician</h3>
-        <h4>Geek Squad</h4>
-        <p>September 2015 - April 2017</p>
-        <ul>
-          <li>
-            Provided exceptional technical support to non-technical personnel,
-            troubleshooting and resolving issues related to Windows, Linux, and
-            Mac systems, and building relationships to ensure customer
-            satisfaction and repeat business.
-          </li>
-          <li>
-            Defined and documented technical best practices, ensuring
-            consistency and efficiency in IT procedures and promoting the use of
-            standardized practices.
-          </li>
-          <li>
-            Utilized a variety of diagnostic tools to identify and solve
-            technical issues, ensuring minimal downtime and maximizing
-            productivity for end-users.
-          </li>
-          <li>
-            Built and repaired a variety of computers, demonstrating advanced
-            technical skills and expertise.
-          </li>
-          <li>
-            Maintained knowledge of current technologies, industry trends, and
-            best practices, staying up-to-date with the latest developments to
-            provide optimal support and solutions for customers.
-          </li>
-          <li>
-            Trained in 12V electrical wiring and electrical repair and safety,
-            demonstrating a diverse skill set and adaptability to various
-            industries.
-          </li>
-        </ul>
-      </div>
-      <div>
-        <h3>Sales Consultant</h3>
-        <h4>Best Buy</h4>
-        <p>August 2014 - September 2015</p>
-        <ul>
-          <li>
-            Provided exceptional customer service by promptly greeting customers
-            and quickly assessing their needs, resulting in a positive shopping
-            experience.
-          </li>
-          <li>
-            Responded to customer inquiries and requests in a timely and
-            efficient manner, demonstrating attentiveness and expertise.
-          </li>
-          <li>
-            Cultivated a friendly and genuine rapport with customers, building
-            trust and loyalty to increase the likelihood of repeat business.
-          </li>
-          <li>
-            Utilized in-depth knowledge of merchandise to make personalized
-            recommendations based on customer needs and preferences, resulting
-            in increased sales and customer satisfaction.
-          </li>
-        </ul>
-      </div>
-    </section>
-  );
+	return (
+		<section id="Experience" className="container py-5">
+			<h1>Experience</h1>
+			<div>
+				<h3>
+					Missile Communications Maintainer - ICBM Master Team Chief - Staff
+					Sergeant
+				</h3>
+				<h4>United States Air Force</h4>
+				<p>August 2019 - Current</p>
+				<ul>
+					<li>
+						Spearheaded 264 dispatches and 3,152 maintenance man-hours, securing
+						F.E. Warren's top Nuclear Command & Control ranking among three
+						Missile Wings
+					</li>
+					<li>
+						Orchestrated a 30-member team in resolving a critical EHF system
+						failure, supporting Raytheon's warranty program and restoring five
+						$1.5M antenna assemblies
+					</li>
+					<li>
+						Rallied an emergency response team and single-handedly executed the
+						recovery of a nuclear-certified asset from the field, averting an
+						overnight stay for nine personnel and ensuring the safe return of a
+						$59M resource to base
+					</li>
+					<li>
+						Delivered emergency SACCS support to eight agencies over 12 days,
+						earning MXG's USSTRATCOM Team of 2020 Award and sustaining a 99%
+						system availability rating
+					</li>
+					<li>
+						Expedited clearance of missile communication backlog, eliminating
+						NC3 degrade outages and fortifying USSTRATCOM's targeting
+						capabilities
+					</li>
+					<li>
+						Achieved ten Quality Assurance evaluations with zero errors,
+						showcasing system expertise and securing Team Chief certification
+					</li>
+					<li>
+						Upheld a top-secret clearance throughout Air Force service,
+						demonstrating professionalism and discretion in managing sensitive
+						information
+					</li>
+				</ul>
+			</div>
+			<div>
+				<h3>IT Support Technician</h3>
+				<h4>Digitech Computer</h4>
+				<p>October 2017 - August 2019</p>
+				<ul>
+					<li>
+						Delivered prompt support to internal and external users, addressing
+						diverse issues and ensuring timely responses to tickets, emails, and
+						requests
+					</li>
+					<li>
+						Skillfully escalated advanced requests to specialized technicians or
+						teams, enhancing overall problem resolution efficiency
+					</li>
+					<li>
+						Contributed to knowledgebase by creating and updating articles,
+						streamlining the troubleshooting process for computer systems,
+						including software and hardware
+					</li>
+					<li>
+						Demonstrated flexibility by working on-call after hours, weekends,
+						and holidays to meet client demands and maintain exceptional service
+						standards
+					</li>
+					<li>
+						Developed and implemented an inventory management procedure for IT
+						hardware resources, optimizing supply levels and reducing downtime
+						effectively
+					</li>
+					<li>
+						Designed a server load balancer to facilitate weekly server updates
+						and created a batch script for deploying in-house software updates,
+						enhancing security by auto-deleting sensitive keys. The script
+						remains in use, showcasing its efficiency and dependability
+					</li>
+				</ul>
+			</div>
+			<div>
+				<h3>Desktop Support Analyst</h3>
+				<h4>Scarsdale Medical Group</h4>
+				<p>April 2017 - July 2017</p>
+				<ul>
+					<li>
+						Independently managed the IT workload for one of three hospital
+						buildings, resulting in improved ticket turn time and timely
+						resolution of technical issues. Regularly communicated with the IT
+						Project Manager to ensure seamless coordination and swift resolution
+						of critical situations
+					</li>
+					<li>
+						Ensured minimal downtime for staff by maintaining and deploying
+						several spare workstations with images that included
+						mission-critical software. This proactive approach enabled timely
+						service and upgrades for active workstations, minimizing disruptions
+						to hospital operations
+					</li>
+				</ul>
+			</div>
+			<div>
+				<h3>Advanced Repair Agent | Auto Technician</h3>
+				<h4>Geek Squad</h4>
+				<p>September 2015 - April 2017</p>
+				<ul>
+					<li>
+						Performed comprehensive diagnostics and repairs on various devices,
+						including computers, smartphones, and tablets, ensuring customer
+						satisfaction and maintaining a high first-time fix rate
+					</li>
+					<li>
+						Assisted customers with the selection and installation of car
+						electronics, including remote start systems, security systems, XM
+						Radio systems, radio systems, and audio systems, ensuring optimal
+						performance and meeting clients' specific needs
+					</li>
+					<li>
+						Conducted one-on-one consultations with customers, assessing their
+						requirements and recommending tailored solutions to address their
+						technology challenges
+					</li>
+					<li>
+						Collaborated with sales and customer service teams to provide a
+						seamless and positive experience for clients, resulting in increased
+						customer retention and loyalty
+					</li>
+					<li>
+						Maintained knowledge of current technologies, industry trends, and
+						best practices, staying up-to-date with the latest developments to
+						provide optimal support and solutions for customers.
+					</li>
+				</ul>
+			</div>
+			<div>
+				<h3>Sales Consultant</h3>
+				<h4>Best Buy</h4>
+				<p>August 2014 - September 2015</p>
+				<ul>
+					<li>
+						Consistently met and exceeded sales targets by leveraging deep
+						product knowledge and understanding customer needs, resulting in
+						increased revenue and customer satisfaction
+					</li>
+					<li>
+						Conducted interactive product demonstrations, showcasing features
+						and benefits to educate customers and facilitate informed purchasing
+						decisions
+					</li>
+					<li>
+						Developed strong relationships with clients by providing exceptional
+						customer service, following up on previous purchases, and addressing
+						inquiries in a timely manner
+					</li>
+					<li>
+						Worked collaboratively with team members across various departments
+						to ensure a seamless customer experience, driving store-wide sales
+						growth and customer satisfaction
+					</li>
+					<li>
+						Participated in ongoing product training, staying up-to-date on the
+						latest technology trends and market developments to better serve
+						customers and enhance sales performance
+					</li>
+				</ul>
+			</div>
+		</section>
+	);
 };
 
 export default Experience;
