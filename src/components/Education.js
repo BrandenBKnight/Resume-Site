@@ -5,7 +5,9 @@ const Education = () => {
 		<section id="Education" className="container py-5 education-container">
 			<h1 className="section-title">Education</h1>
 			<div className="education-item">
-				<h3>B.S.B.A. Project Management</h3>
+				<h3>
+					B.S. Information & Computer Science with Cybersecurity Certificate
+				</h3>
 				<h4>Park University</h4>
 				<p>Expected Graduation: September 2025</p>
 			</div>

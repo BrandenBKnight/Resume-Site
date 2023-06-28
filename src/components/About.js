@@ -31,15 +31,14 @@ const About = () => {
 						fellow airmen. As I moved to my permanent duty station, my
 						dedication to learning didn't wane; I pursued my education full-time
 						while also creating a comprehensive homelab, which further fueled my
-						enthusiasm for cybersecurity and network management. Now, as I
+						enthusiasm for tech, cybersecurity and network management. Now, as I
 						transition out of the Air Force, I'm excited to embark on a new
-						chapter in my career, seeking a fulfilling role in cybersecurity. I
+						chapter in my career, seeking a fulfilling role in IT Management. I
 						hope that sharing my journey on this website gives a sense of who I
 						am and the value I can bring to your organization. I welcome you to
 						explore my website to learn more about my experiences and passions,
 						and please don't hesitate to reach out if you have any questions or
-						would like to discuss potential opportunities. Together, let's work
-						towards a more secure digital future.
+						would like to discuss potential opportunities.
 					</p>
 				</div>
 			</div>
