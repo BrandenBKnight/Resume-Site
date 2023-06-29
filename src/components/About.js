@@ -15,30 +15,43 @@ const About = () => {
 				<div className="col-md-6 about-content">
 					<h1>About Me</h1>
 					<p>
-						From my early days of tinkering with devices like Xbox 360s,
-						iPhones, and laptops, my interest in technology has always been a
-						driving force in my life. After graduating high school, I embarked
-						on a journey in tech and IT roles, where I spent 5 years honing my
-						skills and developing a strong foundation in the field. Following my
-						time in the tech industry, I joined the Air Force where I served for
-						4 years on active duty. During my service in the Air Force, I was
-						responsible for maintaining nuclear missiles, which significantly
-						broadened my technical expertise and honed my analytical abilities.
-						My time in the military also provided me with valuable opportunities
-						to develop leadership skills, as I took charge of diverse teams
-						throughout my career. During my time in tech school, I continued to
-						repair and resell phones, as well as fix laptops and build PCs for
-						fellow airmen. As I moved to my permanent duty station, my
-						dedication to learning didn't wane; I pursued my education full-time
-						while also creating a comprehensive homelab, which further fueled my
-						enthusiasm for tech, cybersecurity and network management. Now, as I
-						transition out of the Air Force, I'm excited to embark on a new
-						chapter in my career, seeking a fulfilling role in IT Management. I
-						hope that sharing my journey on this website gives a sense of who I
-						am and the value I can bring to your organization. I welcome you to
-						explore my website to learn more about my experiences and passions,
-						and please don't hesitate to reach out if you have any questions or
-						would like to discuss potential opportunities.
+						My lifelong fascination with technology began during my early
+						teenage years as I delved into modifying devices such as Xbox 360s,
+						iPhones, and laptops. This curiosity became a driving force in my
+						life, leading me into various tech and IT roles after graduating
+						high school. Over a span of 5 years, I refined my skills and
+						established a solid foundation in the tech industry.
+					</p>
+					<p>
+						Further enriching my knowledge, I joined the Air Force, where I
+						served 4 years on active duty. This opportunity allowed me to expand
+						my technical expertise as I was entrusted with the maintenance of
+						nuclear missiles. Alongside this, I also honed my analytical skills
+						and acquired valuable leadership experience by leading diverse teams
+						throughout my tenure.
+					</p>
+					<p>
+						Even in the military environment, my passion for technology never
+						diminished. During tech school, I continued repairing and reselling
+						phones, mending laptops, and building PCs for fellow airmen. As I
+						transitioned to my permanent duty station, my dedication to constant
+						learning and growth remained unwavering. I pursued a full-time
+						education while simultaneously setting up a comprehensive homelab.
+						This endeavor further stoked my enthusiasm for technology,
+						specifically in areas of cybersecurity and network management.
+					</p>
+					<p>
+						As a lifelong learner, I constantly seek opportunities to broaden my
+						knowledge and refine my skills. As I transition out of the Air
+						Force, I am thrilled to embark on a new chapter in my career,
+						specifically targeting a fulfilling role in IT Management.
+					</p>
+					<p>
+						Sharing my journey on this website offers a glimpse of who I am and
+						the value I can bring to your organization. I encourage you to
+						explore my website to learn more about my experiences, skills, and
+						passions. Should you have any questions or wish to discuss potential
+						opportunities, please do not hesitate to reach out.
 					</p>
 				</div>
 			</div>

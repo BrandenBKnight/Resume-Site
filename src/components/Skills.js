@@ -4,7 +4,7 @@ const Skills = () => {
 	const skillCategories = [
 		{
 			title: "Cloud & Virtualization",
-			skills: ["Docker", "VMWare"],
+			skills: ["Docker", "VMWare", "VirtualBox", "Proxmox", "Citrix XenServer"],
 		},
 		{
 			title: "Cybersecurity Tools",
@@ -37,7 +37,12 @@ const Skills = () => {
 		},
 		{
 			title: "Security Concepts",
-			skills: ["Cryptography", "Access Control", "Intrusion Detection"],
+			skills: [
+				"Cryptography",
+				"Access Control",
+				"Intrusion Detection",
+				"Intrusion Prevention",
+			],
 		},
 		{
 			title: "Web Development",

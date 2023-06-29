@@ -6,21 +6,24 @@ const Experience = () => {
 			<h1>Experience</h1>
 			<div>
 				<h3>
-					Missile Communications Maintainer - ICBM Master Team Chief - Staff
+					Intercontinental Ballistic Missile Maintenance Team Chief - Staff
 					Sergeant
 				</h3>
 				<h4>United States Air Force</h4>
 				<p>August 2019 - Current</p>
 				<ul>
 					<li>
-						Spearheaded 264 dispatches and 3,152 maintenance man-hours, securing
+						As Team Chief (Maintenance Supervisor), effectively managed and
+						mentored my maintenance team, leading 264 dispatches and 3,152
+						maintenance man-hours. My leadership was instrumental in securing
 						F.E. Warren's top Nuclear Command & Control ranking among three
-						Missile Wings
+						Missile Wings, demonstrating my ability to drive team performance
+						and meet strategic objectives
 					</li>
 					<li>
-						Orchestrated a 30-member team in resolving a critical EHF system
-						failure, supporting Raytheon's warranty program and restoring five
-						$1.5M antenna assemblies
+						Orchestrated a 30-member team in resolving a critical Extremely High
+						Frequency (EHF) system failure, supporting Raytheon's warranty
+						program and restoring five $1.5M antenna assemblies
 					</li>
 					<li>
 						Rallied an emergency response team and single-handedly executed the
@@ -29,18 +32,20 @@ const Experience = () => {
 						$59M resource to base
 					</li>
 					<li>
-						Delivered emergency SACCS support to eight agencies over 12 days,
-						earning MXG's USSTRATCOM Team of 2020 Award and sustaining a 99%
-						system availability rating
+						Delivered emergency Strategic Automated Command and Control System
+						support to eight agencies over 12 days, earning Maintenance Group’s
+						US Strategic Command Team of 2020 Award and sustaining a 99% system
+						availability rating
 					</li>
 					<li>
 						Expedited clearance of missile communication backlog, eliminating
-						NC3 degrade outages and fortifying USSTRATCOM's targeting
-						capabilities
+						Nuclear Command and Control degrade outages and fortifying US
+						Strategic Command's targeting capabilities
 					</li>
 					<li>
-						Achieved ten Quality Assurance evaluations with zero errors,
-						showcasing system expertise and securing Team Chief certification
+						Demonstrated system expertise by flawlessly passing ten Quality
+						Assurance evaluations without any errors, an achievement that led to
+						my Team Chief certification within the first year
 					</li>
 					<li>
 						Upheld a top-secret clearance throughout Air Force service,

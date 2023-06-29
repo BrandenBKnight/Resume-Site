@@ -123,22 +123,6 @@ body {
 	color: #ffffff;
 }
 
-.navbar-mobile-menu {
-	display: none;
-	font-size: 24px;
-}
-
-@media (max-width: 768px) {
-	.navbar-main-menu {
-		display: none;
-	}
-
-	.navbar-mobile-menu {
-		display: block;
-		cursor: pointer;
-	}
-}
-
 /* About me section */
 #About.container.py-5 {
 	padding-top: 178px !important;
@@ -276,6 +260,56 @@ body {
 	}
 }
 
+/* Certification section */
+
+.certification-item {
+	padding: 1.5rem;
+	background-color: #e9ecef;
+	border-radius: 4px;
+	margin-bottom: 15px;
+	transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.certification-item:last-child {
+	margin-bottom: 0;
+}
+
+.certification-item:hover {
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	transform: translateY(-3px);
+}
+
+#Certifications h1 {
+	text-align: center;
+	padding-bottom: 30px;
+	font-size: calc(1.375rem + 1.5vw);
+}
+
+#Certifications h3 {
+	font-weight: 600;
+	margin-bottom: 0.25rem;
+}
+
+#Certifications h4 {
+	font-weight: 500;
+	margin-bottom: 0.25rem;
+	color: #777;
+}
+
+#Certifications p {
+	font-weight: bold;
+	margin-bottom: 0.5rem;
+}
+
+#Certifications a {
+	color: #0072c6;
+	text-decoration: none;
+}
+
+#Certifications a:hover {
+	color: #0056b3;
+}
+
 /* Education section */
 .section-title {
 	text-align: center;
@@ -315,6 +349,7 @@ body {
 	font-weight: bold;
 	margin-bottom: 0.5rem;
 }
+
 /* Footer */
 .footer {
 	background-color: #333;
