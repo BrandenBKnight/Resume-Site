@@ -1,13 +1,14 @@
 # Resume Site
 
-Welcome! This is the GitHub repository for my professional resume website, a place where I've chosen to showcase my skills, experiences, and various IT related projects. I've designed the site to be responsive and user-friendly.
+Welcome! This is the GitHub repository for my professional resume website, a place where I've chosen to showcase my skills, experience, certifications, education and a little bit about me. I've also added my LinkedIn and GitHub links as well as a direct link to my up to date resume.
 
 # Features
 
 * About Section: I use this space to give an overview of my professional persona and the unique qualities I bring to the table.
 * Skills Overview: This section provides a comprehensive view of my technical and soft skills, including programming languages and IT management tools.
 * Experience Timeline: Here, I detail my professional journey through a visually appealing timeline, outlining the roles I've filled, the companies I've worked for, and my responsibilities and achievements in each position.
-* Education Timeline: Here, I document my educational history and any certifications I've earned.
+* Certification Section: I've provided a list of certifications I earned as well as any certifications I am currently pursuing.
+* Education Timeline: Here, I document my educational history.
 * Social and Professional Links: I've included direct links to my GitHub and LinkedIn profiles to allow visitors to explore my online presence further.
 * Direct Resume Access: There's a dedicated button on the site for visitors to download or view my most up-to-date resume directly.
 
