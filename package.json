@@ -1,6 +1,6 @@
 {
 	"name": "resume-site",
-	"version": "1.0.2",
+	"version": "1.1.0",
 	"description": "This package hosts the code for my personal resume website, which showcases my skills, experience, and IT projects. The site features an about section, skills and experience timelines, social links, and a direct resume access button. Visit the link below to explore my professional journey. ",
 	"main": "index.js",
 	"scripts": {
